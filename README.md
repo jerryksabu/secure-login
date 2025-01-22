@@ -35,37 +35,3 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/secure-login.git
    cd secure-login
-2.**Create a virtual environment**:
-    python -m venv venv
-3.**Activate the virtual environment**:
-  venv\Scripts\activate
-4.**Install dependencies**:
-  Install the required libraries listed in requirements.txt:
-  pip install -r requirements.txt
-5.**Run the Flask app**:
-   python run.py
-6.**Open the app in your browser**:
-   Go to http://127.0.0.1:5000 in your browser. You should see the secure login and signup page.
-
-**keep directory structure this format**
-secure-login/
-├── secure_login/
-│   ├── __init__.py         # Initialize the Flask app
-│   ├── routes.py           # Contains the routes for login and signup
-│   ├── models.py           # Contains the user model and database operations
-│   ├── templates/
-│   │   ├── login.html      # HTML template for login page
-│   │   └── signup.html     # HTML template for signup page
-│   └── static/
-│       └── style.css       # Optional CSS file for styling
-├── requirements.txt        # Project dependencies
-├── run.py                  # Main file to run the Flask application
-└── README.md               # Project documentation
-**For production or more complex environments, you can create an .env file to store sensitive data such as your Flask secret key and database configurations. Here's an example**:
-FLASK_SECRET_KEY=your-secret-key-here
-DATABASE_URL=sqlite:///users.db
-**To Do / Features to Add**
-1.Email verification: Add email verification for user signup.
-2.Forgot Password: Implement a feature to reset forgotten passwords.
-3.Input validation: Add more input validation for the form fields.
-4.Better UI: Improve the frontend with additional styling and UX enhancements.
