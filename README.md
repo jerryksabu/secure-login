@@ -33,7 +33,7 @@ Ensure you have the following installed:
 
    Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/secure-login.git
+   git clone https://github.com/jerryksabu/secure-login.git
    cd secure-login
 
 2.**Create a virtual environment**:
